@@ -44,10 +44,12 @@ public class Testcontroller {
 		
 		return "join";
 	}
+	
+	
 	@RequestMapping(value = "/joinOk")
 	public String joinOk(MemberDto memberDto, Model model) {
 		model.addAttribute("mDto", memberDto);
-		return "join";
+		return "joinOk";
 	}
 	
 }
