@@ -8,10 +8,10 @@
 </head>
 <body>
 	<form action="joinOk">
-		아이디:<input type="text" name="mid"><br>
-		비밀번호:<input type="password" name="mpw"><br>
-		이름:<input type="text" name="mname"><br>
-		이메일:<input type="text" name="memail"><br>
+		아이디:<input type="text" name="id"><br>
+		비밀번호:<input type="password" name="pw"><br>
+		이름:<input type="text" name="name"><br>
+		이메일:<input type="text" name="email"><br>
 		<input type="submit" name="회원가입완료">
 	</form>
 </body>

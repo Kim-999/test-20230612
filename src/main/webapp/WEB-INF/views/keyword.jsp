@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>회원 로그인 정보</title>
+<title>Insert title here</title>
 </head>
 <body>
-	로그인하신 아이디는 ${memberID }이고, 비밀번호는 ${memberPW }입니다.
-</body>
+	<form action="keywordOk">
+		<input type="text" name="keyword">
+		<input type="submit" value="제출">
+		
+</form></body>
 </html>
