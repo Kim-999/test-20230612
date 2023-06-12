@@ -8,6 +8,6 @@
 </head>
 <body>
 	저는 test.jsp 입니다!<br>
-	<img alt="" src="resources/img/산리오.jpg">
+	<img alt="" src="resources/img/spring.png">
 </body>
 </html>

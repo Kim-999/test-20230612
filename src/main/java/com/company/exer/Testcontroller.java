@@ -37,4 +37,15 @@ public class Testcontroller {
 		
 		return "loginOk";
 	}
+	@RequestMapping(value = "/join")
+	public String join() {
+		
+		return "join";
+	}
+	@RequestMapping(value = "/joinOk")
+	public String joinOk(MemberDto memberDto, Model model) {
+		model.addAttribute("mDto", memberDto);
+		return "join";
+	}
+	
 }
